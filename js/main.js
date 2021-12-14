@@ -1,8 +1,6 @@
 'use strict';
 
-console.log('Preparada??');
 
-// Nos traemos las VARIABLES GLOBALES. 
 
 const titleGame = document.querySelector('.js-titleGame');
 
@@ -21,7 +19,7 @@ const pcPoints = document.querySelector('.js-pcPoints');
 let  playerCounter = 0;
 let  pcCounter = 0;
 
-// Funciones
+
 
 function getRandom(max) {
     return Math.ceil(Math.random() * max)
@@ -78,6 +76,6 @@ function handleButtonClick() {
     gameResult()     
 }
 
-// Código global. Se ejecuta cuando se carga la pagina. (ejemplo: LISTENERS)
+
 
 buttonPlay.addEventListener('click', handleButtonClick);
