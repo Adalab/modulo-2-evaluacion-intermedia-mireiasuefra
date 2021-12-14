@@ -11,6 +11,7 @@ const scissors = document.querySelector('.js-paper');
 
 
 const buttonPlay = document.querySelector('.js-buttonPlay');
+const buttonReset = document.querySelector('.js-buttonReset');
 
 const resultGame = document.querySelector('.js-resultGame');
 const playerPoints = document.querySelector('.js-playerPoints');
@@ -18,6 +19,8 @@ const pcPoints = document.querySelector('.js-pcPoints');
 
 let  playerCounter = 0;
 let  pcCounter = 0;
+let gameCounter = 0
+
 
 
 
@@ -47,8 +50,6 @@ function gameResult() {
         resultGame.innerHTML = 'HAS GANADO' ;
         playerCounter += 1;
         playerPoints.innerHTML = `Jugadora: ${playerCounter} `
-
-
     } else if (userOption === 'piedra' && machineOption === 'papel') {
         resultGame.innerHTML = 'HAS PERDIDO' ;
         pcCounter += 1;
@@ -72,10 +73,23 @@ function gameResult() {
     }
 }
 
-function handleButtonClick() {
-    gameResult()     
+function clickLimit() {
+    const limit = 10;
+    gameCounter += 1 
+    
+
+    if (gameCounter === limit) {
+        gameCounter = 0;
+        buttonPlay.classList.add('collapsed')
+        buttonReset.classList.remove('collapsed')
+    }
 }
 
+
+function handleButtonClick() {
+    gameResult()     
+    clickLimit()
+}
 
 
 buttonPlay.addEventListener('click', handleButtonClick);
