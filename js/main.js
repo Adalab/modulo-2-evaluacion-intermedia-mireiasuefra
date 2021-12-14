@@ -91,5 +91,17 @@ function handleButtonClick() {
     clickLimit()
 }
 
+ function handleButtonReset() {
+    playerCounter = 0;
+    pcCounter = 0;
+    gameCounter = 0     
+    resultGame.innerHTML = 'Vamos a Jugar!!';
+    playerPoints.innerHTML = 'Jugadora:'
+    pcPoints.innerHTML = 'Computadora:'
+    buttonReset.classList.add('collapsed')
+    buttonPlay.classList.remove('collapsed')
+ }
 
+
+buttonReset.addEventListener('click', handleButtonReset);
 buttonPlay.addEventListener('click', handleButtonClick);

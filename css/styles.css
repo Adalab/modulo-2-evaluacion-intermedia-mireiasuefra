@@ -1,3 +1,68 @@
 .collapsed {
     display: none;
 }
+
+
+.bgBody {
+    background: radial-gradient(#d5cef3, #7e68a1);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+
+.titleGame {
+    color: rgb(16, 80, 16);
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 10px solid darksalmon;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.titleh2 {
+    color: rgb(9, 138, 9);
+}
+
+.optionPlay {
+    border-radius: 30px;
+    padding: 10px;
+    border: 3px solid lightsalmon;
+    
+}
+
+.buttonPlay {
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    background-color: lightsalmon;
+    text-transform: uppercase;
+}
+
+.resultGame {
+    border: 5px solid rgb(9, 138, 9);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.playerPoints, .pcPoints {
+    color: rgb(16, 80, 16);
+
+}
+
+.buttonReset{
+    border-radius: 30px;
+    padding: 30px;
+    border: none;
+    background-color: lightsalmon;
+    text-transform: uppercase;
+}
