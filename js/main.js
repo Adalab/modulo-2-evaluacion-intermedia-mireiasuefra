@@ -91,7 +91,8 @@ function handleButtonClick() {
     clickLimit()
 }
 
- function handleButtonReset() {
+ function handleButtonReset(ev) {
+    ev.preventDefault()
     playerCounter = 0;
     pcCounter = 0;
     gameCounter = 0     
