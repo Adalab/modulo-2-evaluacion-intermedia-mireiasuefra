@@ -1,14 +1,21 @@
-# Piedra, Papel o Tijera.
+# Rock, Paper or Scissors.
 
-- En la parte superior, la jugadora selecciona la jugada del desplegable. Las opciones son Piedra,
-Papel y Tijera
-- Debajo, en el próximo apartado aparecen los siguientes textos:
-    - Al arrancar la página: ¡Vamos a Jugar!.
-    - Cuando la jugadora introduzca un movimiento que coincida con al movimiento aleatorio se
-     muestra el mensaje: Empate.
+## Game instructions
 
-    - Cuando la jugadora introduzca un movimiento que gane al movimiento aleatorio se muestra el
-      mensaje: ¡Has Ganado!.
-    - Cuando la jugadora introduzca un movimiento que falle al movimiento aleatorio se muestra el
-     mensaje: ¡Has perdido!.
-- En la parte inferior debe aparecer los puntos de cada jugador.
+- At the top, the player selects the move from the drop-down menu. The options are Rock, Paper or Scissors.
+    - When the player enters a move that matches the random move, the message: "Has empatado".
+    - When the player enters a move that exceeds the random move, the message: ¡Has Ganado!.
+    - When the player enters a move that fails the random move, the message is displayed: Has perdido :(.
+- The score is displayed at the bottom.
+
+## Built with 🚀
+
+- Javascript
+- CSS
+- HTML
+
+
+## About me: 👩🏻‍💻
+
+* [GitHub](https://github.com/mireiasuefra)
+* [Linkedin](https://www.linkedin.com/in/mireia-s-0845661a4/)
