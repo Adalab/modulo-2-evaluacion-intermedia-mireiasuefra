@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra, papel o tijera</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
 </head>
 
 <body class="bgBody">
 
     <main>
         <h1 class="titleGame js-titleGame">Piedra, Papel o Tijera</h1>
-        <h2 class="titleh2">Introduce aquí tu jugada:</h2>
+        <h2 class="titleh2">¡Selecciona tu jugada!</h2>
+
+
 
         <select class="optionPlay js-optionPlay" name="optionPlay" id="optionPlay">
             <option class="js-stone" value="piedra" selected>Piedra</option>
@@ -24,14 +29,28 @@
         <button class="buttonPlay js-buttonPlay">Juguemos!</button>
 
         <p class="resultGame js-resultGame">Vamos a Jugar!!</p>
-        
-        <p class="playerPoints js-playerPoints">Jugadora:</p>
 
-        <p class="pcPoints js-pcPoints">Computadora:</p>
+        <div class="players">
+
+            <p class="playerPoints js-playerPoints">Jugadora:</p>
+
+            <p class="pcPoints js-pcPoints">Computadora:</p>
+
+        </div>
 
         <button class="buttonReset js-buttonReset collapsed">Reset</button>
 
-    </main> 
+    </main>
+    <footer class="footer">
+        <small class="footer__copy">&copy; Mireia Suero 2022</small>
+        <section class="footer__rrss">
+            <h3 class="footer__rrss-title">About me:</h3>
+            <a href="https://github.com/mireiasuefra" class="footer__rrss-web"><i
+                    class="icon fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/mireia-suefra/" class="footer__rrss-web"><i
+                    class="icon fab fa-linkedin"></i></a>
+        </section>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

@@ -4,9 +4,10 @@
 
 
 .bgBody {
-    background: radial-gradient(#d5cef3, #7e68a1);
+    background: radial-gradient(#413d55, #000000e0);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -18,10 +19,10 @@
 }
 
 .titleGame {
-    color: rgb(16, 80, 16);
-    font-size: 40px;
+    color: whitesmoke;
+    font-size: 35px;
     text-transform: uppercase;
-    border-bottom: 10px solid darksalmon;
+    border-bottom: 3px solid whitesmoke;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -46,23 +47,52 @@
 }
 
 .resultGame {
-    border: 5px solid rgb(9, 138, 9);
-    margin-top: 20px;
+       margin-top: 20px;
     margin-bottom: 20px;
     padding: 15px;
     text-transform: uppercase;
     font-size: 18px;
 }
 
+.players{
+
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
 .playerPoints, .pcPoints {
     color: rgb(16, 80, 16);
+    border: 1px solid whitesmoke;
+    padding: 10px;
 
 }
 
 .buttonReset{
     border-radius: 30px;
-    padding: 30px;
+    padding: 15px;
     border: none;
     background-color: lightsalmon;
     text-transform: uppercase;
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: whitesmoke;
+}
+
+.footer__rrss-title {
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+}
+
+.footer__rrss-web{
+color: lightsalmon;
 }

@@ -45,29 +45,29 @@ function gameResult() {
     const userOption = optionPlay.value;
     
     if (userOption === machineOption) {
-        resultGame.innerHTML = 'HAS EMPATADO';
+        resultGame.innerHTML = 'Has empatado';
     } else if (userOption === 'piedra' && machineOption === 'tijera') {
-        resultGame.innerHTML = 'HAS GANADO' ;
+        resultGame.innerHTML = '¡¡HAS GANADO!!' ;
         playerCounter += 1;
         playerPoints.innerHTML = `Jugadora: ${playerCounter} `
     } else if (userOption === 'piedra' && machineOption === 'papel') {
-        resultGame.innerHTML = 'HAS PERDIDO' ;
+        resultGame.innerHTML = 'Has perdido :(' ;
         pcCounter += 1;
         pcPoints.innerHTML = `Computadora: ${pcCounter} `
     } else if (userOption === 'tijera' && machineOption === 'papel') {
-        resultGame.innerHTML = 'HAS GANADO' ;
+        resultGame.innerHTML = '¡¡HAS GANADO!!' ;
         playerCounter += 1;
         playerPoints.innerHTML = `Jugadora: ${playerCounter} `
     } else if (userOption === 'tijera' && machineOption === 'piedra') {
-        resultGame.innerHTML = 'HAS PERDIDO' ;
+        resultGame.innerHTML = 'Has perdido :(' ;
         pcCounter += 1;
         pcPoints.innerHTML = `Computadora: ${pcCounter} `
     } else if (userOption === 'papel' && machineOption === 'piedra') {
-        resultGame.innerHTML = 'HAS GANADO' ;
+        resultGame.innerHTML = '¡¡HAS GANADO!!' ;
         playerCounter += 1;
         playerPoints.innerHTML = `Jugadora: ${playerCounter} `
     } else if (userOption === 'papel' && machineOption === 'tijera') {
-        resultGame.innerHTML = 'HAS PERDIDO' ;
+        resultGame.innerHTML = 'Has perdido :(' ;
         pcCounter += 1;
         pcPoints.innerHTML = `Computadora: ${pcCounter} `
     }
