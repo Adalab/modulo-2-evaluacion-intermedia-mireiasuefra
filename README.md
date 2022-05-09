@@ -8,9 +8,13 @@
     - When the player enters a move that fails the random move, the message is displayed: Has perdido :(.
 - The score is displayed at the bottom.
 
+### Demo
+
+ https://mireiasuefra.github.io/rock-paper-scissors/
+
 ## Built with 🚀
 
-- Javascript
+- JavaScript
 - CSS
 - HTML
 
