@@ -82,6 +82,8 @@ function clickLimit() {
         gameCounter = 0;
         buttonPlay.classList.add('collapsed')
         buttonReset.classList.remove('collapsed')
+        optionPlay.classList.add('collapsed')
+
     }
 }
 
@@ -101,6 +103,7 @@ function handleButtonClick() {
     pcPoints.innerHTML = 'Computadora:'
     buttonReset.classList.add('collapsed')
     buttonPlay.classList.remove('collapsed')
+    optionPlay.classList.remove('collapsed')
  }
 
 
